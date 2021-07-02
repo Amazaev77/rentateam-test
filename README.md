@@ -1,4 +1,10 @@
-[ДЕМО](https://rentateam-test.firebaseapp.com/).
+[ДЕМО](https://rentateam-test.firebaseapp.com/)
+
+## Список использованных технологий:
+
+- typescript / redux / redux-thunk / axios
+- react-scroll
+- css modules / препроцессор scss
 
 ### Команда для запуска:
 
