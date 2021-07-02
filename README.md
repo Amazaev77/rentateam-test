@@ -1,4 +1,4 @@
-[ДЕМО](). 
+[ДЕМО](https://rentateam-test.firebaseapp.com/).
 
 ### Команда для запуска:
 
