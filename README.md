@@ -1,6 +1,6 @@
 [ДЕМО](https://rentateam-test.firebaseapp.com/)
 
-## Список использованных технологий:
+### Список использованных технологий:
 
 - typescript / redux / redux-thunk / axios
 - react-scroll
