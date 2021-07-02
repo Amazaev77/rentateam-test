@@ -1,0 +1,39 @@
+@import "src/index";
+
+.label {
+  margin-right: 13px;
+  font-size: 32px;
+  font-weight: 400;
+  @media (max-width: $xl) {
+    font-size: 26px;
+  }
+  @media (max-width: 1045px) {
+    width: 70px;
+  }
+  @media (max-width: $md) {
+    margin-bottom: 8px;
+    font-size: 20px;
+  }
+}
+
+.input {
+  display: block;
+  width: 210px;
+  height: 42px;
+  box-sizing: border-box;
+  padding: 0 16px;
+  border-radius: 4px;
+  border: 1px solid grey;
+  outline: none;
+  letter-spacing: 0.3px;
+  font-family: 'Abel', sans-serif;
+  font-weight: 400;
+  @media (max-width: $xl) {
+    width: 190px;
+    height: 38px;
+  }
+  @media (max-width: 1045px) {
+    width: 210px;
+    height: 42px;
+  }
+}

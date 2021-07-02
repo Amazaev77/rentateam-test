@@ -1,0 +1,18 @@
+@import "src/index";
+
+.category {
+  display: block;
+  color: rgba(157, 157, 157, 1);
+  font-size: 18px;
+  border-bottom: 2px solid #fff;
+  margin-right: 45px;
+  cursor: pointer;
+  padding: 12px 0;
+  span {
+    display: block;
+  }
+  &.active {
+    color: $main;
+    border-bottom: 2px solid $main;
+  }
+}

@@ -1,0 +1,8 @@
+@import "src/index";
+
+.delivery-wrap {
+  display: flex;
+  @media (max-width: $lg) {
+    flex-direction: column;
+  }
+}

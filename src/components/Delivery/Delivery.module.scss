@@ -1,0 +1,56 @@
+@import "src/index";
+
+.delivery {
+  flex: 4;
+  @media (max-width: $lg) {
+    order: 2;
+  }
+  .header {
+    font-size: 64px;
+    font-weight: 700;
+    margin: 0 0 48px;
+    @media (max-width: $xl) {
+      font-size: 50px;
+      margin: 0 0 28px;
+    }
+    @media (max-width: $md) {
+      font-size: 40px;
+      text-align: center;
+    }
+    @media (max-width: $sm) {
+      font-size: 30px;
+      text-align: left;
+    }
+  }
+  .form {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    @media (max-width: $md) {
+      margin: 0;
+      justify-content: center;
+    }
+    @media (max-width: $sm) {
+      justify-content: flex-start;
+    }
+    & > div {
+      display: flex;
+      &:not(:last-child) {
+        margin-right: 43px;
+      }
+      @media (max-width: $xl) {
+        &:not(:last-child) {
+          margin-right: 35px;
+        }
+      }
+      @media (max-width: 1045px) {
+        &:not(:last-child) {
+          margin-bottom: 20px;
+        }
+      }
+      @media (max-width: $md) {
+        flex-direction: column;
+      }
+    }
+  }
+}

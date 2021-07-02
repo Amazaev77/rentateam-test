@@ -1,0 +1,44 @@
+@import 'src/index';
+
+.header {
+  max-height: 88px;
+  padding: 37px 0;
+  display: flex;
+  justify-content: space-between;
+  .squares {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 70px;
+    margin: 0 auto;
+    div {
+      width: 14px;
+      height: 17px;
+      background-color: $main;
+      &:not(:last-child) {
+        margin-right: 14px;
+      }
+    }
+  }
+  .basket {
+    color: white;
+    background-color: $main;
+    padding: 0 10px;
+    min-width: 82px;
+    height: 36px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 18px;
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: all 500ms;
+    img {
+      margin-left: 5px;
+    }
+  }
+}
